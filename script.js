@@ -161,6 +161,9 @@ function inputEquals() {
   } 
 
   if (result === null) {
+    if (firstNumber !== null && (waitingForSecondNumber || operator === null)) {
+      updateDisplay(firstNumber);
+    }
     return;
   }
   updateDisplay(result);
