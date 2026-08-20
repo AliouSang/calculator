@@ -159,6 +159,10 @@ function inputEquals() {
     showError("ERROR");
     return;
   } 
+
+  if (result === null) {
+    return;
+  }
   updateDisplay(result);
   firstNumber = result.toString();
   operator = null;
