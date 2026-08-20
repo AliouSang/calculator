@@ -5,7 +5,7 @@ A web-based calculator created as the final project for **The Odin Project: Foun
 ![Calculator Screenshot](./calculator.png)
 
 ## Live Demo
-[View Live Calculator](https://github.com/AliouSang/calculator.git)
+[View Live Calculator](https://aliousang.github.io/calculator/)
 
 ## Features
 
